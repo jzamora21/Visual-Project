@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+
+} 
+.fade-in-text {
+  font-family: Arial;
+  font-size: 40x;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+h1{
+  border-style: solid;color: #e2440f;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+ 
+}
+h2{
+  text-align: center;  
+  color: brown;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3{
+  text-align: center;  
+  color: brown;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  
+}
+  
+body{
+  background-color: rgb(251, 158, 64);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.fade-in-image {
+    width: auto;    
+    max-height: 100%;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+figcaption{
+  font-family: "Butterfly Kids", cursive;
+  text-align: center;
+
+}
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 65%;
+  border: 5px solid #ff6b09;
+}
+
+#video {
+  width: 300px; 
+  height: 300px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: rgb(217, 228, 232);
+  }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
